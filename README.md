@@ -120,11 +120,22 @@ HeatSpace is a smart heat optimization system that analyzes 3D floor plans, simu
 
 ---
 
-## 📊 GitHub Stats
+## �� GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=muneebkk&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=muneebkk&layout=compact&theme=dark&hide_border=true" alt="Top Languages" />
+  
+  <!-- Main Stats with your real data -->
+  <img src="https://github-readme-stats.vercel.app/api?username=muneebkk&show_icons=true&theme=dark&hide_border=true&count_private=true&include_all_commits=true&custom_title=Muneeb's%20GitHub%20Stats" alt="GitHub Stats" />
+  
+  <!-- Top Languages -->
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=muneebkk&layout=compact&theme=dark&hide_border=true&langs_count=8" alt="Top Languages" />
+  
+  <!-- Your actual contribution streak -->
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=muneebkk&theme=dark&hide_border=true&stroke=00ffff&ring=00ffff&fire=00ffff&currStreakNum=00ffff&sideNums=00ffff&currStreakLabel=00ffff&sideLabels=00ffff&dates=00ffff" alt="GitHub Streak" />
+  
+  <!-- Contribution Graph (this should show your real activity) -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=muneebkk&theme=dark&hide_border=true&stroke=00ffff&ring=00ffff&fire=00ffff&currStreakNum=00ffff&sideNums=00ffff&currStreakLabel=00ffff&sideLabels=00ffff&dates=00ffff" alt="Contribution Graph" />
+  
 </div>
 
 ---
@@ -133,7 +144,7 @@ HeatSpace is a smart heat optimization system that analyzes 3D floor plans, simu
 
 Check out my interactive **Cyberpunk OS Portfolio** - a futuristic website that simulates an operating system with draggable windows and a hacker aesthetic!
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Cyberpunk%20OS-00ffff?style=for-the-badge&logo=react)](https://your-portfolio.vercel.app)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Cyberpunk%20OS-00ffff?style=for-the-badge&logo=react)]([https://your-portfolio.vercel.app](https://muneebkamran.vercel.app/))
 
 **Features:** Interactive Desktop Environment, Draggable Windows, Real-time Terminal, Multiple Themes
 
