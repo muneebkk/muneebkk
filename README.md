@@ -124,12 +124,7 @@ HeatSpace is a smart heat optimization system that analyzes 3D floor plans, simu
 
 <div align="center">
   
-  <!-- Main Stats with your real data -->
-  <img src="https://github-readme-stats.vercel.app/api?username=muneebkk&show_icons=true&theme=dark&hide_border=true&count_private=true&include_all_commits=true&custom_title=Muneeb's%20GitHub%20Stats" alt="GitHub Stats" />
-  
-  <!-- Top Languages -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=muneebkk&layout=compact&theme=dark&hide_border=true&langs_count=8" alt="Top Languages" />
-  
+
   <!-- Your actual contribution streak -->
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=muneebkk&theme=dark&hide_border=true&stroke=00ffff&ring=00ffff&fire=00ffff&currStreakNum=00ffff&sideNums=00ffff&currStreakLabel=00ffff&sideLabels=00ffff&dates=00ffff" alt="GitHub Streak" />
   
