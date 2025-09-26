@@ -133,15 +133,6 @@ HeatSpace is a smart heat optimization system that analyzes 3D floor plans, simu
   
 </div>
 
----
-
-## 🌟 My Portfolio Website
-
-Check out my interactive **Cyberpunk OS Portfolio** - a futuristic website that simulates an operating system with draggable windows and a hacker aesthetic!
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-Cyberpunk%20OS-00ffff?style=for-the-badge&logo=react)]([https://your-portfolio.vercel.app](https://muneebkamran.vercel.app/))
-
-**Features:** Interactive Desktop Environment, Draggable Windows, Real-time Terminal, Multiple Themes
 
 ---
 
