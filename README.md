@@ -16,7 +16,7 @@ I'm a passionate **Computer Science student** at **Simon Fraser University** wit
 ### 🔥 What I'm Currently Up To
 - 🎓 **Computer Science** at Simon Fraser University (2023-2028)
 - 🧠 **Minor in Statistics** + **AI Concentration**
-- 💼 **Machine Learning Intern** at OpenQQuantify
+- 💼 **Software Engineering Intern** at OpenQQuantify
 - 👨‍🏫 **Peer Tutor** for 100+ CS students
 - 🏠 **Community Advisor** for 200+ university residents
 
