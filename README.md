@@ -67,7 +67,7 @@ I'm a passionate **Computer Science student** at **Simon Fraser University** wit
 ## 🏆 Featured Projects
 
 ### 🏢 **[Casecomp.ca](https://casecomp.ca)** - *Founding Engineer*
-> **Full-Stack Platform | 400+ Users | Live Production**
+> **Full-Stack Platform | 1000+ Users | Live Production**
 
 As a founding engineer, I helped build CaseComp.ca, a comprehensive platform that streamlines university case competitions. Features role-based access, real-time updates, Stripe integration, and has already scaled to 1000+ users across multiple events.
 
@@ -90,6 +90,15 @@ Built an AI detector specifically for websites - think of it as an AI detector f
 HeatSpace is a smart heat optimization system that analyzes 3D floor plans, simulates heat propagation, and recommends optimal heater placements. Using Gaussian heat diffusion and k-D tree optimization, it improved simulated HVAC efficiency by 25%, reducing energy waste.
 
 **Tech:** `Next.js` `Flask` `OpenCV` `NumPy` `SciPy` `SwiftUI` `Redis` 
+
+---
+
+### 🧩 **[Huawei Challenge – StormHacks 2025](https://github.com/muneebkk)** - *1st Place Winner*
+> **Algorithm Optimization | DAG Scheduling | 200k Nodes**
+
+Developed a C++ DAG scheduler that used greedy, heuristic, beam search, and branch-and-bound algorithms to minimize runtime under memory constraints. Benchmarked with Python MILP/Gurobi models, reducing peak memory usage by 40%, and presented results to Huawei Research Vancouver after winning 1st place among 220+ teams.
+
+**Tech:** `C++` `Python` `MILP` `Gurobi` `Algorithm Design`
 
 ---
 
