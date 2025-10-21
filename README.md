@@ -69,7 +69,7 @@ I'm a passionate **Computer Science student** at **Simon Fraser University** wit
 ### 🏢 **[Casecomp.ca](https://casecomp.ca)** - *Founding Engineer*
 > **Full-Stack Platform | 400+ Users | Live Production**
 
-As a founding engineer, I helped build CaseComp.ca, a comprehensive platform that streamlines university case competitions. Features role-based access, real-time updates, Stripe integration, and has already scaled to 400+ users across multiple events.
+As a founding engineer, I helped build CaseComp.ca, a comprehensive platform that streamlines university case competitions. Features role-based access, real-time updates, Stripe integration, and has already scaled to 1000+ users across multiple events.
 
 **Tech:** `React 18` `TypeScript` `Supabase` `Stripe` `Tailwind CSS`
 
@@ -80,7 +80,7 @@ As a founding engineer, I helped build CaseComp.ca, a comprehensive platform tha
 
 Built an AI detector specifically for websites - think of it as an AI detector for web design! Created a custom dataset of 200+ manually collected images, trained multiple models including Random Forest, achieving 80%+ accuracy with sub-500ms inference times.
 
-**Tech:** `FastAPI` `scikit-learn` `OpenCV` `React 18` `Vite`
+**Tech:** `Next.js` `Flask` `SwiftUI` `OpenCV` `NumPy` `SciPy` `Redis`
 
 ---
 
@@ -89,14 +89,14 @@ Built an AI detector specifically for websites - think of it as an AI detector f
 
 HeatSpace is a smart heat optimization system that analyzes 3D floor plans, simulates heat propagation, and recommends optimal heater placements. Using Gaussian heat diffusion and k-D tree optimization, it improved simulated HVAC efficiency by 25%, reducing energy waste.
 
-**Tech:** `Next.js` `Flask` `OpenCV` `NumPy` `SciPy`
+**Tech:** `Next.js` `Flask` `OpenCV` `NumPy` `SciPy` `SwiftUI` `Redis` 
 
 ---
 
 ## 🎓 Education & Experience
 
 ### **Simon Fraser University** | *Bachelor of Science in Computer Science*
-**2023 - 2028** | *Minor in Statistics + AI Concentration*
+**2023 - 2027** | *Minor in Statistics + AI Concentration*
 
 **Relevant Coursework:** Data Structures & Algorithms, Software Engineering, Database Systems, Machine Learning, Statistics, Computer Vision, Web Development, Discrete Mathematics
 
@@ -104,7 +104,7 @@ HeatSpace is a smart heat optimization system that analyzes 3D floor plans, simu
 
 #### 🤖 **Machine Learning Intern** | *OpenQQuantify*
 **Aug 2025 - Dec 2025** | *Hardware AI Solutions*
-- Developed AI models for hardware optimization and performance analysis in quantum computing environments
+- improved backend systems to make hardware testing and performance analysis faster and more efficient.
 
 #### 📻 **Software Developer Intern** | *CJSF Radio*
 **May 2025 - Aug 2025**
@@ -116,7 +116,7 @@ HeatSpace is a smart heat optimization system that analyzes 3D floor plans, simu
 
 #### 🏔️ **Backend Developer** | *Horizon Expeditions*
 **Aug 2024 - Jan 2025**
-- Developed scalable backend systems for expedition management, user authentication, and real-time tracking
+- Developed backend features that supported team management, real-time tracking, and smooth gameplay.
 
 ---
 
