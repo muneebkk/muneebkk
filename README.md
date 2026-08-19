@@ -1,165 +1,112 @@
-# Hi there, I'm Muneeb! 👋
+# Muneeb Kamran
 
-<div align="center">
-  
-  ### 🚀 Computer Science Student | Full-Stack Developer | AI/ML Enthusiast
-  
-  *Born in Pakistan 🇵🇰 → Raised in Dubai 🇦🇪 → Studying in Canada 🇨🇦*
-</div>
+
+[![Email](https://img.shields.io/badge/mmk28@sfu.ca-0F766E?style=flat-square&logo=gmail&logoColor=white)](mailto:mmk28@sfu.ca)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-1E4E79?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muneeb-kamran-0a345722a)
+![Vancouver](https://img.shields.io/badge/Vancouver,_BC-3F3F46?style=flat-square&logo=googlemaps&logoColor=white)
 
 ---
 
-## 🎯 About Me
+## About
 
-I'm a passionate **Computer Science student** at **Simon Fraser University** with a love for building innovative solutions that make a real impact. When I'm not coding, you'll find me mentoring fellow students, contributing to open-source projects, or exploring the latest in AI and computer vision.
+Third-year CS student at Simon Fraser University, Minor in Statistics, graduating May 2028. Grew up between Pakistan and Dubai, now in Vancouver.
 
-### 🔥 What I'm Currently Up To
-- 🎓 **Computer Science** at Simon Fraser University (2023-2028)
-- 🧠 **Minor in Statistics** + **AI Concentration**
-- 💼 **Software Engineering Intern** at OpenQQuantify
-- 👨‍🏫 **Peer Tutor** for 100+ CS students
-- 🏠 **Community Advisor** for 200+ university residents
+Open to Winter, Summer, and Fall 2027 internships, infrastructure and platform teams especially.
 
 ---
 
-## 🛠️ Tech Stack
+## Experience
 
-<div align="center">
+### Software Engineer Intern · Royal Bank of Canada, Amplify Program
+`May 2026 - Aug 2026`
 
-### 💻 **Languages**
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+A production ML service built from an empty repo by a four-person team over 16 weeks. I owned the orchestration layer and the API contract between services. Demoed to 400+ staff at RBC AmpExpo.
 
-### 🌐 **Frontend**
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+### Technical Lead · SFU Blueprint (Richmond Poverty Reduction Coalition)
+`Jan 2026 - Apr 2026`
 
-### ⚙️ **Backend**
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
+Led six developers building a membership platform for a poverty-reduction nonprofit. Service split on AWS, query performance work, and the infrastructure and deploy pipeline around it.
 
-### 🗄️ **Database**
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+### Backend Software Engineer Intern · OpenQQuantify
+`Aug 2025 - Dec 2025`
 
-### 🤖 **AI/ML**
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+Multi-tenant event processing on Kafka. Consumer group topology, JVM profiling and thread pool tuning under burst load, and structured logging to make incidents traceable across instances.
 
-### ☁️ **Tools & DevOps**
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+### Full Stack Developer · CJSF Radio
+`Apr 2025 - Jul 2025`
 
-</div>
+Moved a monolithic PHP/Laravel broadcast platform onto containerized services. Concurrency bugs in the scheduler, failure isolation between encoding and playback, and listener analytics.
 
 ---
 
-## 🏆 Featured Projects
+## Projects
 
-### 🏢 **[Casecomp.ca](https://casecomp.ca)** - *Founding Engineer*
-> **Full-Stack Platform | 1000+ Users | Live Production**
+### Memory-Constrained DAG Scheduler
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Gurobi](https://img.shields.io/badge/MILP_/_Gurobi-A11D21?style=flat-square)
+![1st of 220+](https://img.shields.io/badge/1st_of_220+-B45309?style=flat-square)
 
-As a founding engineer, I helped build CaseComp.ca, a comprehensive platform that streamlines university case competitions. Features role-based access, real-time updates, Stripe integration, and has already scaled to 1000+ users across multiple events.
+A C++ scheduler placing DAG workloads under hard memory ceilings. Tried greedy, beam search, and branch-and-bound, and went with beam search, since provable optimality wasn't worth an unbounded solve time. Checked the output against MILP/Gurobi optimal solutions to confirm schedule quality held up, and got peak memory down 40% versus the solver baseline. Presented it to Huawei Research engineers at their Vancouver HQ.
 
-**Tech:** `React 18` `TypeScript` `Supabase` `Stripe` `Tailwind CSS`
+### [CaseComp.ca](https://casecomp.ca)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
+![Live](https://img.shields.io/badge/live-1,200+_users-0F766E?style=flat-square)
 
----
+A case competition platform running across 10+ universities. Tenant isolation lives in PostgreSQL row-level security driven by JWT claims rather than in application code, so there's no code path that can forget to check. Stripe workflows are idempotent with webhook deduplication keyed on event ID. At-least-once delivery plus app-side dedup means handling the occasional duplicate but never double-charging anyone.
 
-### 🛡️ **[WebTraceAI](https://github.com/muneebkk/webtraceai)** - *AI Website Detector*
-> **Machine Learning | 80%+ Accuracy | Production Ready**
+### Other work
 
-Built an AI detector specifically for websites - think of it as an AI detector for web design! Created a custom dataset of 200+ manually collected images, trained multiple models including Random Forest, achieving 80%+ accuracy with sub-500ms inference times.
+**[HeatSpace](https://github.com/Ekanshthegreat/SafeSpace)** · *Next.js, Flask, OpenCV, NumPy/SciPy, Redis*
+Hackathon winner. Reads 3D floor plans with OpenCV and graph segmentation, then runs Gaussian heat diffusion solvers to place heaters for balanced airflow. Redis caching keeps a multi-room simulation under two seconds.
 
-**Tech:** `Next.js` `Flask` `SwiftUI` `OpenCV` `NumPy` `SciPy` `Redis`
+**[WebTraceAI](https://github.com/muneebkk/webtraceai)** · *Next.js, Flask, OpenCV, scikit-learn*
+An AI detector for web design. Hand-collected a dataset of 200+ labeled screenshots and compared a few models. Random Forest landed around 80% accuracy at sub-500ms inference.
 
----
-
-### 🔥 **[HeatSpace](https://github.com/Ekanshthegreat/SafeSpace)** - *Smart Heat Optimization*
-> **Hackathon Winner | 25% Efficiency Increase | 1st Place**
-
-HeatSpace is a smart heat optimization system that analyzes 3D floor plans, simulates heat propagation, and recommends optimal heater placements. Using Gaussian heat diffusion and k-D tree optimization, it improved simulated HVAC efficiency by 25%, reducing energy waste.
-
-**Tech:** `Next.js` `Flask` `OpenCV` `NumPy` `SciPy` `SwiftUI` `Redis` 
-
----
-
-### 🧩 **[Huawei Challenge – StormHacks 2025](https://github.com/muneebkk)** - *1st Place Winner*
-> **Algorithm Optimization | DAG Scheduling | 200k Nodes**
-
-Developed a C++ DAG scheduler that used greedy, heuristic, beam search, and branch-and-bound algorithms to minimize runtime under memory constraints. Benchmarked with Python MILP/Gurobi models, reducing peak memory usage by 40%, and presented results to Huawei Research Vancouver after winning 1st place among 220+ teams.
-
-**Tech:** `C++` `Python` `MILP` `Gurobi` `Algorithm Design`
+**Horizon Expeditions** · *Backend Developer, Aug 2024 - Jan 2025*
+Backend features for team management and real-time tracking.
 
 ---
 
-## 🎓 Education & Experience
+## Skills
 
-### **Simon Fraser University** | *Bachelor of Science in Computer Science*
-**2023 - 2027** | *Minor in Statistics + AI Concentration*
+**Languages**
 
-**Relevant Coursework:** Data Structures & Algorithms, Software Engineering, Database Systems, Machine Learning, Statistics, Computer Vision, Web Development, Discrete Mathematics
+![Java](https://img.shields.io/badge/Java-E76F00?style=flat-square&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 
-### **Professional Experience**
+**Backend**
 
-#### 🤖 **Machine Learning Intern** | *OpenQQuantify*
-**Aug 2025 - Dec 2025** | *Hardware AI Solutions*
-- improved backend systems to make hardware testing and performance analysis faster and more efficient.
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![OpenAPI](https://img.shields.io/badge/OpenAPI-6BA539?style=flat-square&logo=openapiinitiative&logoColor=white)
 
-#### 📻 **Software Developer Intern** | *CJSF Radio*
-**May 2025 - Aug 2025**
-- Built and maintained web applications for radio station operations and content management systems
+**Cloud and infra**
 
-#### 👨‍🏫 **Computer Science Peer Tutor** | *Simon Fraser University*
-**Jan 2025 - May 2025**
-- Mentored 100+ students in data structures, algorithms, and software engineering concepts
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white)
+![OpenShift](https://img.shields.io/badge/OpenShift-EE0000?style=flat-square&logo=redhatopenshift&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Keycloak](https://img.shields.io/badge/Keycloak/OIDC-4D4D4D?style=flat-square&logo=keycloak&logoColor=white)
 
-#### 🏔️ **Backend Developer** | *Horizon Expeditions*
-**Aug 2024 - Jan 2025**
-- Developed backend features that supported team management, real-time tracking, and smooth gameplay.
+**Systems and tooling**
 
----
-
-## �� GitHub Stats
-
-<div align="center">
-  
-
-  <!-- Your actual contribution streak -->
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=muneebkk&theme=dark&hide_border=true&stroke=00ffff&ring=00ffff&fire=00ffff&currStreakNum=00ffff&sideNums=00ffff&currStreakLabel=00ffff&sideLabels=00ffff&dates=00ffff" alt="GitHub Streak" />
-  
-  <!-- Contribution Graph (this should show your real activity) -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=muneebkk&theme=dark&hide_border=true&stroke=00ffff&ring=00ffff&fire=00ffff&currStreakNum=00ffff&sideNums=00ffff&currStreakLabel=00ffff&sideLabels=00ffff&dates=00ffff" alt="Contribution Graph" />
-  
-</div>
-
+Concurrency, thread pools, message queues, performance profiling, query optimization, scikit-learn, SQLAlchemy, VisualVM, k6
 
 ---
 
-## 📬 Let's Connect!
+## Elsewhere
 
-I'm always excited to collaborate on interesting projects, discuss new ideas, or just have a chat about technology!
-
-<div align="center">
-
-[![Email](https://img.shields.io/badge/Email-mmk28@sfu.ca-D14836?style=for-the-badge&logo=gmail)](mailto:mmk28@sfu.ca)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-muneeb--kamran-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/muneeb-kamran-0a345722a/)
-[![GitHub](https://img.shields.io/badge/GitHub-muneebkk-181717?style=for-the-badge&logo=github)](https://github.com/muneebkk)
-[![Instagram](https://img.shields.io/badge/Instagram-@muneebkk_-E4405F?style=for-the-badge&logo=instagram)](https://www.instagram.com/muneebkk_/)
-
-</div>
-
----
-
-<div align="center">
-  <p>📍 Vancouver, BC | 🎓 Simon Fraser University | 🚀 Available for opportunities</p>
-</div>
+2x MLH hackathon winner. Peer tutor at SFU, 100+ students through data structures and algorithms. Community advisor for 200+ residents in student housing, which turns out to have more in common with debugging a distributed system than you'd expect.
