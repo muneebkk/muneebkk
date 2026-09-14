@@ -11,7 +11,7 @@
 
 Third-year CS student at Simon Fraser University, Minor in Statistics, graduating May 2028. Grew up between Pakistan and Dubai, now in Vancouver.
 
-Open to Winter, Summer, and Fall 2027 internships, infrastructure and platform teams especially.
+Open to Winter, Summer, and Fall 2027 internships. Most interested in infrastructure, platform, and ML serving teams.
 
 ---
 
@@ -20,22 +20,22 @@ Open to Winter, Summer, and Fall 2027 internships, infrastructure and platform t
 ### Software Engineer Intern · Royal Bank of Canada, Amplify Program
 `May 2026 - Aug 2026`
 
-A production ML service built from an empty repo by a four-person team over 16 weeks. I owned the orchestration layer and the API contract between services. Demoed to 400+ staff at RBC AmpExpo.
+ECHO, a fraud detection platform built from an empty repo by a four-person team over 16 weeks. It checks for fraud in two passes, a fast cheap one first and a slower expensive one only when needed, which is now patent pending with me on the filing. I owned the pipeline that moves events through the system and the contracts between services, so nothing gets lost or counted twice when something fails. Demoed to 400+ staff at RBC AmpExpo and going into production.
 
 ### Technical Lead · SFU Blueprint (Richmond Poverty Reduction Coalition)
 `Jan 2026 - Apr 2026`
 
-Led six developers building a membership platform for a poverty-reduction nonprofit. Service split on AWS, query performance work, and the infrastructure and deploy pipeline around it.
+Led six developers building a membership platform for a poverty-reduction nonprofit. Split the app into separate services on AWS, made the slow database queries fast, and set up the deploy pipeline around it.
 
 ### Backend Software Engineer Intern · OpenQQuantify
 `Aug 2025 - Dec 2025`
 
-Multi-tenant event processing on Kafka. Consumer group topology, JVM profiling and thread pool tuning under burst load, and structured logging to make incidents traceable across instances.
+Event processing on Kafka for multiple customers on shared infrastructure. Tuned the system to survive sudden traffic spikes, and added logging that made it possible to trace a single request across every instance it touched.
 
 ### Full Stack Developer · CJSF Radio
 `Apr 2025 - Jul 2025`
 
-Moved a monolithic PHP/Laravel broadcast platform onto containerized services. Concurrency bugs in the scheduler, failure isolation between encoding and playback, and listener analytics.
+Moved an old single-block PHP/Laravel broadcast platform onto containers. Fixed scheduler bugs where two things ran at once and clashed, kept encoding failures from taking playback down with them, and built listener analytics.
 
 ---
 
@@ -47,7 +47,7 @@ Moved a monolithic PHP/Laravel broadcast platform onto containerized services. C
 ![Gurobi](https://img.shields.io/badge/MILP_/_Gurobi-A11D21?style=flat-square)
 ![1st of 220+](https://img.shields.io/badge/1st_of_220+-B45309?style=flat-square)
 
-A C++ scheduler placing DAG workloads under hard memory ceilings. Tried greedy, beam search, and branch-and-bound, and went with beam search, since provable optimality wasn't worth an unbounded solve time. Checked the output against MILP/Gurobi optimal solutions to confirm schedule quality held up, and got peak memory down 40% versus the solver baseline. Presented it to Huawei Research engineers at their Vancouver HQ.
+A C++ scheduler that decides what order to run jobs in when memory is capped. Tried three approaches and went with beam search, since the one that guarantees the perfect answer could run forever. Checked my results against the mathematically optimal solver to confirm the schedules held up, and cut peak memory 40% versus the baseline. Presented it to Huawei Research engineers at their Vancouver HQ.
 
 ### [CaseComp.ca](https://casecomp.ca)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
@@ -56,15 +56,15 @@ A C++ scheduler placing DAG workloads under hard memory ceilings. Tried greedy, 
 ![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
 ![Live](https://img.shields.io/badge/live-1,200+_users-0F766E?style=flat-square)
 
-A case competition platform running across 10+ universities. Tenant isolation lives in PostgreSQL row-level security driven by JWT claims rather than in application code, so there's no code path that can forget to check. Stripe workflows are idempotent with webhook deduplication keyed on event ID. At-least-once delivery plus app-side dedup means handling the occasional duplicate but never double-charging anyone.
+A case competition platform running across 10+ universities. Each school's data is walled off inside the database itself rather than by application code, so there's no way for a developer to forget the check and leak one school's data to another. Payments are built so that if Stripe sends the same event twice, nobody gets charged twice.
 
 ### Other work
 
 **[HeatSpace](https://github.com/Ekanshthegreat/SafeSpace)** · *Next.js, Flask, OpenCV, NumPy/SciPy, Redis*
-Hackathon winner. Reads 3D floor plans with OpenCV and graph segmentation, then runs Gaussian heat diffusion solvers to place heaters for balanced airflow. Redis caching keeps a multi-room simulation under two seconds.
+Hackathon winner. Reads a 3D floor plan, simulates how heat spreads through the rooms, and works out where to put the heaters for even coverage. Caching keeps a full multi-room simulation under two seconds.
 
 **[WebTraceAI](https://github.com/muneebkk/webtraceai)** · *Next.js, Flask, OpenCV, scikit-learn*
-An AI detector for web design. Hand-collected a dataset of 200+ labeled screenshots and compared a few models. Random Forest landed around 80% accuracy at sub-500ms inference.
+Detects whether a web design was AI-generated. Hand-labeled a dataset of 200+ screenshots and compared a few models. Random Forest landed around 80% accuracy in under half a second.
 
 **Horizon Expeditions** · *Backend Developer, Aug 2024 - Jan 2025*
 Backend features for team management and real-time tracking.
@@ -101,9 +101,17 @@ Backend features for team management and real-time tracking.
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Keycloak](https://img.shields.io/badge/Keycloak/OIDC-4D4D4D?style=flat-square&logo=keycloak&logoColor=white)
 
+**ML and monitoring**
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=flat-square&logo=opentelemetry&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+
 **Systems and tooling**
 
-Concurrency, thread pools, message queues, performance profiling, query optimization, scikit-learn, SQLAlchemy, VisualVM, k6
+Concurrency, message queues, performance profiling, query optimization, SQLAlchemy, VisualVM, k6
 
 ---
 
